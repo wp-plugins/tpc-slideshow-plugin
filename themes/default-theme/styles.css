@@ -1,0 +1,167 @@
+#tpc-slideshow-container-0 { /* This contains all of the slideshow elements. */
+	border: 1px solid red;
+	width: 900px;
+	height: 250px;
+	overflow: hidden;
+	float: right;
+	z-index: 99;
+	position: relative;
+}
+#tpc-slideshow-container-0 .slides { /* This contains all of the slides. */
+}
+
+
+
+/* BEGINNING OF SLIDE */
+/* BEGINNING OF SLIDE */
+#tpc-slideshow-container-0 .slide { /* This contains each individual slide and it's content. */
+	color: #fff;
+	width: 900px !important;
+	height: 250px;
+	overflow: hidden;
+}
+
+#tpc-slideshow-container-0 .slideshow-the-excerpt { /* Displays the excerpt of the post/slide. */
+	background: url(images/the-excerpt-background.png);
+	margin: 200px 0 0 0;
+	padding: 10px 10px 10px 10px;
+	width: 880px;
+	height: 30px;
+	color: #fff;
+	position: absolute;
+	z-index: 4;
+}
+#tpc-slideshow-container-0 .slideshow-the-excerpt a { /* Displays the link after the excerpt.*/
+}
+#tpc-slideshow-container-0 .slideshow-the-featured-image { /* Displays the featured image assigned to the post. You can read more about these and how to enable them for your theme in the Wordpress codex at http://codex.wordpress.org/Post_Thumbnails */
+}
+#tpc-slideshow-container-0 .slideshow-the-content { /* Displays the content, including full HTML rendered, of the post/slide. */
+	display: none;
+}
+#tpc-slideshow-container-0 .slideshow-read-more-link {
+	margin: 40px 0 0 5px;
+	position: absolute;
+	z-index: 4;
+}
+#tpc-slideshow-container-0 .slideshow-the-title { /* Displays the title of the post/slide. */
+	position: absolute;
+	margin: 5px 0 0 5px;
+	z-index: 4;
+}
+#tpc-slideshow-container-0 .slideshow-the-author { /* Displays the authors name. */
+	position: absolute;
+	margin: 20px 0 0 5px;
+	z-index: 4;
+}
+
+
+
+/* CONTROLS */
+/* CONTROLS */
+#tpc-slideshow-container-0 .fade-controls {
+	display: none;
+	color: #fff;
+	height: 1px;
+	position: absolute;
+	text-indent: -9999px; /* This hides the text and display only an image. */
+	width: 900px;
+	z-index: 5;
+	font-size: 0; /* This hides the text in Internet Explorer because text-indent doesn't work. */
+}
+#tpc-slideshow-container-0 .controls {
+	color: #fff;
+	height: 1px;
+	position: absolute;
+	text-indent: -9999px; /* This hides the text and display only an image. */
+	width: 900px;
+	z-index: 5;
+	font-size: 0; /* This hides the text in Internet Explorer because text-indent doesn't work. */
+}
+
+
+/* NEXT BUTTON */
+#tpc-slideshow-container-0 .next-button {
+	background: url(images/next-button.png) no-repeat 0 0;
+	cursor: pointer;
+	float: right;
+	height: 30px;
+	margin: 125px 25px 0 0;
+	width: 35px;
+}
+#tpc-slideshow-container-0 .next-button-hover {
+	/* background: url(images/ .png) no-repeat 0 0; IF YOU WANT TO USE A HOVER IMAGE */
+}
+
+
+/* PAUSE BUTTON */
+#tpc-slideshow-container-0 .pause-button {
+	background: url(images/pause-button.png) no-repeat 0 0;
+	cursor: pointer;
+	height: 30px;
+	position: absolute;
+	margin: 150px 0 0 450px;
+	text-indent: -9999px;
+	width: 35px;
+}
+#tpc-slideshow-container-0 .pause-button-hover {
+	/* background: url(images/ .png) no-repeat 0 0; IF YOU WANT TO USE A HOVER IMAGE */
+}
+#tpc-slideshow-container-0 .resume {
+	background: url(images/resume-button.png) no-repeat 0 0;
+}
+
+
+/* PREVIOUS BUTTON */
+#tpc-slideshow-container-0 .previous-button {
+	background: url(images/previous-button.png) no-repeat 0 0;
+	cursor: pointer;
+	float: left;
+	height: 30px;
+	margin: 125px 0 0 25px;
+	width: 35px;
+}
+#tpc-slideshow-container-0 .previous-button-hover {
+	/* background: url(images/ .png) no-repeat 0 0 IF YOU WANT TO USE A HOVER IMAGE */
+}
+
+
+
+/* PAGINATION */
+/* PAGINATION */
+#tpc-slideshow-container-0 .pagination-container {
+	text-align: center;
+	width: 900px;
+	position: relative;
+	margin: -25px 0 0 -15px;
+	z-index: 5;
+}
+
+#tpc-slideshow-container-0 .paginator {
+	border: 1px solid #fff;
+	background: transparent;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	color: #fff;
+	clear: none;
+	cursor: pointer;
+	font-size: 11px;
+	float: right;
+	margin: 0 0 0 5px;
+	text-align: center;
+	height: 11px;
+	width: 11px;
+	text-indent: -9999px;
+}
+
+#tpc-slideshow-container-0 .paginator-hover {
+	background: #fff;
+}
+
+#tpc-slideshow-container-0 .paginator-selected {
+	background: #fff;
+}
+
+#tpc-slideshow-container-0 .slide-number {
+}
+#tpc-slideshow-container-0 .pagination-content {
+}

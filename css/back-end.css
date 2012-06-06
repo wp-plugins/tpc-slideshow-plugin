@@ -1,0 +1,12 @@
+.tpc-slideshow h3.hndle {
+	cursor: default;
+	font-size: 12px;
+	margin: 0;
+	padding: 5px 0 5px 10px;
+}
+.tpc-slideshow .inside {
+	padding: 0 0 0 10px;
+}
+.tpc-slideshow .title {
+	width: 300px;
+}
